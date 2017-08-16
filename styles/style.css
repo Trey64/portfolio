@@ -45,12 +45,16 @@ img {
 .hero-title {
   position: relative;
   text-align: center;
-  bottom: 8em;
+  bottom: 7em;
 }
 
 .hero-description {
   position: relative;
   bottom: 6em;
+}
+
+#projects {
+  text-align: center;
 }
 
 .project-block {
@@ -70,4 +74,17 @@ img {
 .read-more {
   position: relative;
   bottom: 6em;
+}
+
+#skills {
+  text-align: center;
+}
+
+.skills-list {
+  text-align: center;
+  column-count: 2;
+}
+
+#about h2 {
+  text-align: center;
 }
