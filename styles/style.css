@@ -1,0 +1,44 @@
+.main-header {
+  background-color: #9896A4;
+}
+
+
+
+.icon-menu {
+  font-size: 3em;
+  float: right;
+}
+
+.main-nav {
+  padding: 0.1em;
+}
+
+.main-nav ul {
+  display: block;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.main-nav li {
+  margin-right: .4em;
+  font-size: 1.5em;
+  padding: .5em .2em;
+  border-bottom: 1px solid black;
+}
+
+img {
+  max-width: 100%;
+  z-index: -1;
+}
+
+.hero-title {
+  position: relative;
+  text-align: center;
+  bottom: 10em;
+}
+
+.hero-description {
+  position: relative;
+  bottom: 5.5em;
+}
