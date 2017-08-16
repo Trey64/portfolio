@@ -1,0 +1,90 @@
+.main-header {
+  background-color: #9896A4;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.icon-menu {
+  font-size: 3em;
+  float: right;
+}
+
+.main-nav {
+  padding: 0.1em;
+}
+
+.main-nav ul {
+  display: block;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.main-nav li {
+  margin-right: .4em;
+  font-size: 1.5em;
+  padding: .5em .2em;
+  border-bottom: 1px solid black;
+}
+
+img {
+  max-width: 100%;
+  z-index: -1;
+}
+
+.hero-title {
+  position: relative;
+  text-align: center;
+  bottom: 7em;
+}
+
+.hero-description {
+  position: relative;
+  bottom: 6em;
+}
+
+#projects {
+  text-align: center;
+}
+
+.project-block {
+  display: inline-block;
+  text-align: center;
+  padding: 0.2em;
+  margin: 0.1em;
+
+}
+
+.project-title {
+  position: relative;
+  text-align: center;
+  bottom: 8em;
+}
+
+.read-more {
+  position: relative;
+  bottom: 6em;
+}
+
+#skills {
+  text-align: center;
+}
+
+.skills-list {
+  text-align: center;
+  column-count: 2;
+}
+
+#about h2 {
+  text-align: center;
+}
