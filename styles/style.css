@@ -14,10 +14,10 @@ h3 {
   font-size: 22px;
 }
 
-.icon-menu {
+/*.icon-menu {
   font-size: 3em;
   float: right;
-}
+}*/
 
 .main-nav {
   padding: 0.1em;
@@ -37,7 +37,17 @@ h3 {
   border-bottom: 1px solid black;
 }
 
-img {
+#carousel {
+  text-align: center;
+}
+
+.hero-block {
+  text-align: center;
+  padding: 0.2em;
+  margin: 0.1em;
+}
+
+.hero-image {
   max-width: 100%;
   z-index: -1;
 }
@@ -45,12 +55,16 @@ img {
 .hero-title {
   position: relative;
   text-align: center;
-  bottom: 7em;
+  bottom: 6em;
+  font-size: 5vw;
 }
 
 .hero-description {
   position: relative;
   bottom: 6em;
+  margin-bottom: 0.1em;
+  overflow: scroll;
+  font-size: 2vw;
 }
 
 #projects {
@@ -62,7 +76,6 @@ img {
   text-align: center;
   padding: 0.2em;
   margin: 0.1em;
-
 }
 
 .project-title {
@@ -87,4 +100,33 @@ img {
 
 #about h2 {
   text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+  /*.icon-menu {
+    display: none;
+  }*/
+
+  .main-nav {
+    padding: .2em .2em .2em 2em;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav ul li {
+    display: inline;
+    border-bottom: none;
+  }
+
+  .main-nav ul li:hover a {
+    color: #4F84C4;
+  }
+
+  .hero-image {
+    display: block;
+    margin: auto;
+  }
+
 }
