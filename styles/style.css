@@ -104,6 +104,16 @@ h3 {
   text-align: center;
 }
 
+.me {
+  display: block;
+  margin: auto;
+}
+
+#about p {
+  font-size: 20px;
+  margin: 1em;
+}
+
 .skills-list {
   text-align: center;
   column-count: 2;
