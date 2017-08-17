@@ -42,14 +42,17 @@ h3 {
 }
 
 .hero-block {
+  display: inline;
   text-align: center;
   padding: 0.2em;
   margin: 0.1em;
 }
 
 .hero-image {
+  display: block;
   max-width: 100%;
   z-index: -1;
+  vertical-align: bottom;
 }
 
 .hero-title {
@@ -63,12 +66,12 @@ h3 {
   position: relative;
   bottom: 6em;
   margin-bottom: 0.1em;
-  overflow: scroll;
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 
 #projects {
   text-align: center;
+  margin: 0.1em;
 }
 
 .project-block {
@@ -93,13 +96,24 @@ h3 {
   text-align: center;
 }
 
-.skills-list {
-  text-align: center;
-  column-count: 2;
+#about {
+  margin: 0.1em;
 }
 
 #about h2 {
   text-align: center;
+}
+
+.skills-list {
+  text-align: center;
+  column-count: 2;
+  column-gap: normal;
+  margin-bottom: 2em;
+}
+
+footer {
+  text-align: center;
+  vertical-align: bottom;
 }
 
 @media only screen and (min-width: 640px) {
