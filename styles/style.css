@@ -32,11 +32,32 @@ h3 {
   border-bottom: 1px solid black;
 }
 
-#hero {
+/*#hero {
+  text-align: center;
+}*/
+
+.carousel {
+  width: 1440px;
+  height: 1080px;
+  overflow: hidden;
   text-align: center;
 }
 
-.hero-block {
+.carousel ul {
+  width: 3000px;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel ul li {
+  width: 1440px;
+  text-align: center;
+  height: 1080px;
+  list-style: none;
+  float:	left;
+}
+
+/*.hero-block {
   display: inline;
   text-align: center;
   padding: 0.2em;
@@ -62,7 +83,7 @@ h3 {
   bottom: 6em;
   margin-bottom: 0.1em;
   font-size: 2.5vw;
-}
+}*/
 
 #projects {
   text-align: center;
