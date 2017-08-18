@@ -1,11 +1,11 @@
 'use strict';
 
-var articleView = {};
+var portfolioView = {};
 
 $('#projects').hide();
 $('#about').hide();
 
-articleView.handleTabNav = function() {
+portfolioView.handleTabNav = function() {
   $('.main-nav .tab').on('click', function() {
     var $where = $(this).data('content');
     $('.tab-content').hide();
@@ -13,6 +13,16 @@ articleView.handleTabNav = function() {
   });
 };
 
+portfolioView.handleCarousel = function() {
+  var carouselSlider = setInterval(function(){
+		$(".carousel ul").animate({marginLeft:-1440},1000,function(){
+			$(this).find("li:last").after($(this).find("li:first"));
+			$(this).css({marginLeft:0});
+		})
+	},5000);
+}
+
 $(document).ready(function() {
-  articleView.handleTabNav();
+  portfolioView.handleTabNav();
+  portfolioView.handleCarousel();
 });
