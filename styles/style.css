@@ -32,32 +32,35 @@ h3 {
   border-bottom: 1px solid black;
 }
 
-/*#hero {
+#hero {
   text-align: center;
-}*/
+}
 
 .carousel {
   width: 1440px;
-  height: 1080px;
+  height: 900px;
   overflow: hidden;
   text-align: center;
+  max-width: 100%;
 }
 
 .carousel ul {
   width: 3000px;
   padding: 0;
   margin: 0;
+  max-width: 100%;
 }
 
 .carousel ul li {
   width: 1440px;
   text-align: center;
-  height: 1080px;
+  height: 900px;
   list-style: none;
   float:	left;
+  max-width: 100%;
 }
 
-/*.hero-block {
+.hero-block {
   display: inline;
   text-align: center;
   padding: 0.2em;
@@ -74,16 +77,18 @@ h3 {
 .hero-title {
   position: relative;
   text-align: center;
-  bottom: 6em;
+  bottom: 12em;
   font-size: 5vw;
+  color: black;
 }
 
 .hero-description {
   position: relative;
-  bottom: 6em;
+  bottom: 12em;
   margin-bottom: 0.1em;
   font-size: 2.5vw;
-}*/
+  color: black;
+}
 
 #projects {
   text-align: center;
