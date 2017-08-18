@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var articleView = {};
 
@@ -15,4 +15,4 @@ articleView.handleTabNav = function() {
 
 $(document).ready(function() {
   articleView.handleTabNav();
-})
+});
