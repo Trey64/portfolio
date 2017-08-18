@@ -14,11 +14,6 @@ h3 {
   font-size: 22px;
 }
 
-/*.icon-menu {
-  font-size: 3em;
-  float: right;
-}*/
-
 .main-nav {
   padding: 0.1em;
 }
@@ -127,10 +122,6 @@ footer {
 }
 
 @media only screen and (min-width: 640px) {
-  /*.icon-menu {
-    display: none;
-  }*/
-
   .main-nav {
     padding: .2em .2em .2em 2em;
   }
