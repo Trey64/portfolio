@@ -11,6 +11,15 @@ h3 {
   font-size: 22px;
 }
 
+#hamburger {
+  display: inline-block;
+  float: right;
+  height: .5em;
+  width: 1.4em;
+  line-height: 2em;
+  font-size: 2em;
+}
+
 .main-nav {
   padding: 0.1em;
 }
@@ -30,6 +39,11 @@ h3 {
 }
 
 @media only screen and (min-width: 640px) {
+
+  #hamburger {
+    display: none;
+  }
+
   .main-nav {
     padding: .2em .2em .2em 2em;
   }
