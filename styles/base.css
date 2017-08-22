@@ -1,0 +1,61 @@
+.carousel {
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  max-width: 100%;
+  padding: 0.2em;
+  margin: auto;
+}
+
+.carousel ul {
+  width: 3000px;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.carousel ul li {
+  width: 1440px;
+  text-align: center;
+  height: 900px;
+  list-style: none;
+  float:	left;
+  max-width: 100%;
+}
+
+.hero-image {
+  display: block;
+  max-width: 100%;
+  z-index: -1;
+}
+
+.project-block {
+  display: inline-block;
+  text-align: center;
+  padding: 0.2em;
+  margin: 0.1em;
+}
+
+.project-title {
+  position: relative;
+  text-align: center;
+  bottom: 8em;
+}
+
+.read-more {
+  position: relative;
+  bottom: 6em;
+}
+
+.me {
+  display: block;
+  margin: auto;
+}
+
+.skills-list {
+  text-align: center;
+  column-count: 2;
+  column-gap: normal;
+  margin-bottom: 2em;
+}
