@@ -15,7 +15,14 @@
   <link rel="manifest" href="favicons/manifest.json">
   <meta name="theme-color" content="#ffffff">
 
-
+  <script id="project-template" type="text/x-handlebars-template">
+    <div class="project-div">
+      <h2>{{title}}</h2>
+      <section class="project-description">{{description}}</section>
+      <img class="project-image" src="{{screenshot}}">
+      <a href="{{projectURL}}">Link</a>
+    </div>
+  </script>
 </head>
 <body>
   <header class="main-header">
