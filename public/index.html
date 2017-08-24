@@ -14,12 +14,20 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
   <link rel="manifest" href="favicons/manifest.json">
   <meta name="theme-color" content="#ffffff">
+
+  <script id="project-template" type="text/x-handlebars-template">
+    <div class="project-div">
+      <h2>{{title}}</h2>
+      <section class="project-description">{{description}}</section>
+      <img class="project-image" src="{{screenshot}}">
+      <a href="{{projectURL}}">Link</a>
+    </div>
+  </script>
 </head>
 <body>
   <header class="main-header">
     <section class="heading-group">
       <h1>Thomas Reyes</h1>
-      <h2>A work in progress</h2>
     </section>
     <nav class="main-nav">
       <span id="hamburger">&#9776;</span>
@@ -85,6 +93,8 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-  <script src="app.js"></script>
+  <script src="scripts/projectTemplates.js"></script>
+  <script src="scripts/projects.js"></script>
+  <script src="scripts/app.js"></script>
 </body>
 </html>

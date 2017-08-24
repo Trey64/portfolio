@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Thomas Reyes' portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trey64/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Thomas Reyes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trey64/portfolio/issues"
+  },
+  "homepage": "https://github.com/Trey64/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
