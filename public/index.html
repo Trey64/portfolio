@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Thomas Reyes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="vendor/reset.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/modules.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+
+
+</head>
+<body>
+  <header class="main-header">
+    <section class="heading-group">
+      <h1>Thomas Reyes</h1>
+    </section>
+    <nav class="main-nav">
+      <span id="hamburger">&#9776;</span>
+      <div class="icon-menu"></div>
+      <ul>
+        <li class="tab" data-content="hero"><a href="#">Home</a></li>
+        <li class="tab" data-content="about"><a href="#">About</a></li>
+        <li class="tab" data-content="projects"><a href="#">Projects</a></li>
+        <li><a href="http://github.com/Trey64">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/thomas-reyes-8162ab8a/">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="tab-content">
+      <div class="carousel">
+        <ul>
+          <li><img class="hero-image" src="img/carousel1.jpg" /></li>
+          <li><img class="hero-image" src="img/carousel2.jpg" /></li>
+          <li><img class="hero-image" src="img/carousel3.jpg" /></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="tab-content">
+      <h2>Projects</h2>
+      <div class="project-block">
+        <img class="project-image" src="http://via.placeholder.com/200x200" />
+        <h3 class="project-title">Project 1</h3>
+        <button class="read-more" type="button">Read More</button>
+      </div>
+      <div class="project-block">
+        <img class="project-image" src="http://via.placeholder.com/200x200" />
+        <h3 class="project-title">Project 2</h3>
+        <button class="read-more" type="button">Read More</button>
+      </div>
+      <div class="project-block">
+        <img class="project-image" src="http://via.placeholder.com/200x200" />
+        <h3 class="project-title">Project 3</h3>
+        <button class="read-more" type="button">Read More</button>
+      </div>
+    </section>
+
+
+    <section id="about" class="tab-content">
+      <h2>About</h2>
+      <img class="me" src="img/me.png"</img>
+      <p>
+        Hi there, my name is Thomas Reyes. I grew up in Las Vegas, NV and currently reside in Shoreline, WA. I served 8 years in the Navy as an Electronics Technician, where I troubleshot radio communications equipment and supervised a workcenter. During my two deployments in South America, I was also on a team that conducted maritime boardings and inspections in support of counter narcotics operations. I recently finished my enlistment and now I'm a student at the Code 301: Intermediate Software Development course at Code Fellows! Upon graduation, I intend to enroll in the Code 401: Advanced Software Development in Full-Stack JavaScript.
+        <br /><br />
+        I enjoy the challenge of solving problems, and it's my goal to build products that enrich people's lives. It's been an exciting journey so far, and I'm eager to learn more and become a better coder.
+        <br /><br />
+        In my spare time, I enjoy hiking, photography, and playing video games, especially Overwatch. I also have a passion for film, so I'm constantly at the theater catching new movies. I devour pop culture in all it's geeky forms and would make a great asset on any trivia team.
+        <br /><br />
+        (Contact Info Stuff)
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2017 Thomas Reyes
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+  <script src="scripts/projectTemplates.js"></script>
+  <script src="scripts/projects.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
