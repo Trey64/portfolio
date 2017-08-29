@@ -16,13 +16,16 @@
   <meta name="theme-color" content="#ffffff">
 
   <script id="project-template" type="text/x-handlebars-template">
-    <div class="project-div">
-      <h2>{{title}}</h2>
-      <section class="project-description">{{description}}</section>
-      <img class="project-image" src="{{screenshot}}">
-      <a href="{{projectURL}}">Link</a>
-    </div>
+    <article data-category="{{category}}">
+      <div class="project-div">
+        <h2>{{title}}</h2>
+        <section class="project-description">{{description}}</section>
+        <img class="project-image" src="{{screenshot}}">
+        <a href="{{projectUrl}}">Link</a>
+      </div>
+    </article>
   </script>
+
 </head>
 <body>
   <header class="main-header">
@@ -54,7 +57,7 @@
     </section>
 
     <section id="projects" class="tab-content">
-      <h2>Projects</h2>
+            <!-- <h2>Projects</h2>
       <div class="project-block">
         <img class="project-image" src="http://via.placeholder.com/200x200" />
         <h3 class="project-title">Project 1</h3>
@@ -69,7 +72,7 @@
         <img class="project-image" src="http://via.placeholder.com/200x200" />
         <h3 class="project-title">Project 3</h3>
         <button class="read-more" type="button">Read More</button>
-      </div>
+      </div> -->
     </section>
 
 
@@ -93,8 +96,10 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-  <script src="scripts/projectTemplates.js"></script>
+  <script src="scripts/portfolioView.js"></script>
   <script src="scripts/projects.js"></script>
-  <script src="scripts/app.js"></script>
+  <script>
+    Project.fetchAll();
+  </script>
 </body>
 </html>
