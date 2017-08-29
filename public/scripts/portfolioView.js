@@ -1,6 +1,6 @@
 'use strict';
 
-var portfolioView = {};
+const portfolioView = {};
 
 $('#projects').hide();
 $('#about').hide();
@@ -22,7 +22,10 @@ portfolioView.handleCarousel = function() {
   },5000);
 };
 
-$(document).ready(function() {
+portfolioView.initIndexPage = function() {
+  // Project.all.forEach(function(article) {
+    // $('#projects').append(project.toHtml())
+  // });
   portfolioView.handleTabNav();
   portfolioView.handleCarousel();
-});
+};
