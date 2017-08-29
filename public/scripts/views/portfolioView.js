@@ -1,5 +1,7 @@
 'use strict';
 
+var app = app || {};
+
 const portfolioView = {};
 
 $('#projects').hide();
@@ -28,4 +30,4 @@ portfolioView.initIndexPage = function() {
   // });
   portfolioView.handleTabNav();
   portfolioView.handleCarousel();
-};
+}

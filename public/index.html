@@ -28,6 +28,7 @@
 
 </head>
 <body>
+
   <header class="main-header">
     <section class="heading-group">
       <h1>Thomas Reyes</h1>
@@ -35,10 +36,10 @@
     <nav class="main-nav">
       <span id="hamburger">&#9776;</span>
       <div class="icon-menu"></div>
-      <ul>
-        <li class="tab" data-content="hero"><a href="#">Home</a></li>
-        <li class="tab" data-content="about"><a href="#">About</a></li>
-        <li class="tab" data-content="projects"><a href="#">Projects</a></li>
+      <ul class="sticky-nav">
+        <li class="tab" data-content="hero"><a href="/">Home</a></li>
+        <li class="tab" data-content="about"><a href="/about">About</a></li>
+        <li class="tab" data-content="projects"><a href="/projects">Projects</a></li>
         <li><a href="http://github.com/Trey64">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/thomas-reyes-8162ab8a/">LinkedIn</a></li>
       </ul>
@@ -96,8 +97,13 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-  <script src="scripts/portfolioView.js"></script>
-  <script src="scripts/projects.js"></script>
+  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+  <script src="scripts/models/projects.js"></script>
+  <script src="scripts/views/portfolioView.js"></script>
+    <script src="scripts/controllers/homeController.js"></script>
+  <script src="scripts/controllers/aboutController.js"></script>
+  <script src="scripts/controllers/projectsController.js"></script>
+  <script src="scripts/controllers/routes.js"></script>
   <script>
     Project.fetchAll();
   </script>
