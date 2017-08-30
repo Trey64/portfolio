@@ -26,6 +26,23 @@
     </article>
   </script>
 
+  <script id="repo-template" type="text/x-handlebars-template">
+    <li>
+      <a href="{{html_url}}" target="_blank">
+        <h3>{{name}}</h3>
+      </a>
+      <p>Description: {{description}}</p>
+      <p>Language: {{language}}</p>
+      <p>Created: {{created_at}}</p>
+      <p>Last updated: {{updated_at}}</p>
+      <p>Total commits: {{}}</p>
+      <p>Average length of commit messages: {{}}</p>
+      {{#if watchers_count}}
+        <p>{{watchers_count}} watching this repo</p>
+      {{/if}}
+    </li>
+  </script>
+
 </head>
 <body>
 
@@ -58,6 +75,7 @@
     </section>
 
     <section id="projects" class="tab-content">
+      <div id="projects-test">
             <!-- <h2>Projects</h2>
       <div class="project-block">
         <img class="project-image" src="http://via.placeholder.com/200x200" />
@@ -74,6 +92,7 @@
         <h3 class="project-title">Project 3</h3>
         <button class="read-more" type="button">Read More</button>
       </div> -->
+    </div>
     </section>
 
 
@@ -98,10 +117,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
   <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+  <script src="/scripts/models/githubToken.js"></script>
+
   <script src="scripts/models/projects.js"></script>
   <script src="scripts/views/portfolioView.js"></script>
-    <script src="scripts/controllers/homeController.js"></script>
+  <script src="scripts/controllers/homeController.js"></script>
   <script src="scripts/controllers/aboutController.js"></script>
+
+  <script src="/scripts/models/repo.js"></script>
+  <script src="/scripts/views/repoView.js"></script>
   <script src="scripts/controllers/projectsController.js"></script>
   <script src="scripts/controllers/routes.js"></script>
   <script>
