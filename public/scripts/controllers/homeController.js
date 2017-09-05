@@ -11,5 +11,5 @@ var app = app || {};
 
   }
 
-  module.home = homeController;
+  module.homeController = homeController;
 })(app);
