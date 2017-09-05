@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 const requestProxy = require('express-request-proxy');
 
-const conString = process.env.DATABASE_URL || 'postgres://localhost:5432/portfolio';
+const conString = process.env.DATABASE_URL || 'postgres://localhost:5432/';
 
 // There is also a package here called body-parser, which is required in for use in a new route.
 // Be sure to install that and save it as a dependency after you create your package.json.
