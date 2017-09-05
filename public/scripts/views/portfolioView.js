@@ -25,9 +25,6 @@ portfolioView.handleCarousel = function() {
 };
 
 portfolioView.initIndexPage = function() {
-  // Project.all.forEach(function(article) {
-    // $('#projects').append(project.toHtml())
-  // });
   portfolioView.handleTabNav();
   portfolioView.handleCarousel();
 }
