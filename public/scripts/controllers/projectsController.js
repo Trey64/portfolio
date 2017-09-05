@@ -6,7 +6,6 @@ var app = app || {};
   const projectsController = {};
 
   projectsController.init = () => {
-    // $('.tab-content').hide();
     $('#projects').show();
     app.repos.requestRepos(app.repoView.index);
   }
